@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+.black ,input , select, button{
+    width: 80%;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.top>.black{
+    margin: 10px ;
+}
+.bottom>button{
+    margin: 10px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.black>p{
+    margin: 10px auto;
+    width: 50%;
+}
+canvas{
+    border: 2px solid black;
+}
